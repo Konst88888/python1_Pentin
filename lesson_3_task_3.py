@@ -1,11 +1,12 @@
 #user_name = input()
 #print("Привет, " +  user_name) # Насколько понял задание, нужно было сделать так?
 
+from address import Address
+from mailing import Mailing
 
-print("Как тебя зовут?")
-user_name = input()
-print("Привет, " +  user_name + "!") # Так, мне кажется, лучше...
+mail = Mailing(Address('123321', 'Kirov', 'Vorovskogo', '1', '1'), Address('123321', 'Kirov', 'Vorovskogo', '2', '2'), 123, 'track')
 
+print(mail)
 
 
 

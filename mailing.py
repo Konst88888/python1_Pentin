@@ -1,5 +1,9 @@
-
-def numNum(num):
-    return(num)
-print(numNum(8),numNum(8),numNum(0),numNum(0),numNum(5),numNum(5),numNum(5),numNum(3),numNum(5),numNum(3),numNum(5))
-
+from address import Address
+class Mailing:
+    class Adress:
+        def __init__(self, from_address, to_address, cost, track):
+            
+            self.to_address = from_address
+            self.from_address = to_address
+            self.cost = cost
+            self.track = track    
