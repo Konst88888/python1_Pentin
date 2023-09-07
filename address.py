@@ -6,5 +6,10 @@ class Address:
         self.house = house
         self.apartment = apartment
 
-    def post(self):
-        print(self.index, self.city, self.street, self.house, self.apartment)
+    
+
+    def toString(self):
+        return '<' + self.index + '>, <' + self.city  + '>, <' + self.street  + '>, <' + self.house  + '> - <' + self.apartment + '>'
+
+
+    

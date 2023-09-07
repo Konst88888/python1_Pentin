@@ -10,7 +10,7 @@ class Smartphone:
 
     def sayPhone(self):
         stringValue = '<' + self.brend + '> - <' + self.model + '>. <' + self.number + '>'
-        print(stringValue)
+        return(stringValue)
 
     def toString(self):
         return '<' + self.brend + '> - <' + self.model + '>. <' + self.number + '>'

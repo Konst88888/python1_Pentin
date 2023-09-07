@@ -11,7 +11,7 @@ catalog = [phone1, phone2, phone3, phone4, phone5]
 
 def say():
     for n in catalog:
-        print(n.toString())
+        print(n.sayPhone())
 
 say()        
         
