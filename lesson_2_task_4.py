@@ -8,8 +8,8 @@ def fizz_buzz(n):
                     print('Fizz')
         else:
                 print(n)
-
-fizz_buzz(15)                
+n = int(input('Введите число: '))
+fizz_buzz(n)                
 
         
 

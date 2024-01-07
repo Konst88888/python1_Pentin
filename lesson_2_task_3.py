@@ -1,9 +1,9 @@
+from math import *
 def square(a):
-    a = round(a)
-    S1 = a * a
-    print(S1)
-
-square(2.8)
+    S = ceil(a * a)
+    return S
+a = float(input('Введите длину стороны квадрата: '))
+print(square(a))
 
 
 

@@ -1,12 +1,12 @@
 
 def is_year_leap(x):
   
-    if x % 4 == 0 :
+    if int(x) % 4 == 0 :
         print('год', x, ':',True)
-    else:
-        print('год', x, ':',False)
-
-is_year_leap(0)
+    elif int(x) % 4 != 0:
+        print('год', x, ':',False)    
+x = int(input('Введите год: '))
+is_year_leap(x)
 
 
 

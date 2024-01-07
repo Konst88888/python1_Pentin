@@ -3,5 +3,5 @@ for n in lst:
     if n < 30 and n % 3 == 0:
         print(n)
 
-
+# не понял в чем была ошибка
  
